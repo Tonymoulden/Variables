@@ -32,7 +32,11 @@ example_verse = (
 )
 
 # WRITE CODE BELOW
-
+verse = (
+    'what do you think my brain is made for'
+    'Is it just a container for the mind?'
+    'This great grey matter'
+)
 
 # 3.2
 # Print
@@ -42,4 +46,6 @@ example_verse = (
 #   Remember you can re-use variables (like the chorus) if it's the same.
 #
 # WRITE CODE BELOW
+print(verse)
+
 

@@ -1,7 +1,7 @@
-# author: <name here>
-# date: <date here>
+# author: Tony Moulden
+# date: 07/02/2021
 #
-# description: <fill in>
+# description: variables excersize
 
 # --------------- Section 1 --------------- #
 
@@ -24,7 +24,12 @@ example_name = 'elia'
 print('EXAMPLE: my name is', example_name)
 
 # WRITE CODE BELOW
-
+name = 'Tony'
+print('my name is', name)
+birthday = 'October 30th'
+print('my bithday is', birthday)
+animal = 'Vulture'
+print('one of my favorite animals is a', animal)
 
 
 # 1.2 | Variable Creation | Integers / Floats
@@ -45,7 +50,14 @@ print('EXAMPLE: my name is', example_name)
 #   5) Print each variable, describing the value you print.
 
 # WRITE CODE BELOW
-
+favnum = '22'
+print('my favorite number is', favnum)
+bday = '10/30'
+print('the day of my birthday is', bday)
+neg = '-22'
+print('the negative number Iv\'e chosen is', neg)
+float = '0.22'
+print('my floating number is', float)
 
 
 # 1.3 | Overwriting Variables
@@ -67,7 +79,12 @@ example_name = 'lucia'
 print('EXAMPLE: my new name is', example_name)
 
 # WRITE CODE BELOW
-
+name = 'Moulden'
+print('my new name is', name)
+birthday = 'Friday'
+print('the best day to have my birthday on is', birthday)
+favnum = '99'
+print('If i had to chose it would have to be', favnum)
 
 
 # 1.4 | Operations
@@ -95,3 +112,17 @@ example_sum = 11 + 21
 print('EXAMPLE: the sum of 11 and 21 is', example_sum)
 
 # WRITE CODE BELOW
+sum = 21 + 1
+print('the sum of 21 and 1 is', sum)
+product = 11 * 2 * 1
+print('the product of 11, 2, and 1 is', product)
+divide = sum / product
+print('this is what I got', divide)
+mashup = 'ton' + 'cheetah'
+print('this is what I got', mashup)
+weird = 'omg' * 30
+print('this is it', weird)
+mathstuff = 122 - 99
+print('this is the number', mathstuff)
+favnum = 22 ^ 22
+print('This is it squared', favnum)

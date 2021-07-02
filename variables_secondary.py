@@ -1,5 +1,5 @@
-# author: <name here>
-# date: <date here>
+# author: Tony Moulden
+# date: 07/02/2021
 #
 # description: <fill in>
 
@@ -44,5 +44,5 @@
 #       - True or Floor Division with itself and a random number.
 #       - Addition with itself and an equation
 #           - Example Equation: ((10 - 2) * (4 + 3) - 1) * 15
-#
-
+x = 2
+print((x-4) * (x+2) / 8)
